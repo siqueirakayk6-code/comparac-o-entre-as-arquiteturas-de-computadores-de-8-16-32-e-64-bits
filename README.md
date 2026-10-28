@@ -1,1 +1,0 @@
-# comparac-o-entre-as-arquiteturas-de-computadores-de-8-16-32-e-64-bits

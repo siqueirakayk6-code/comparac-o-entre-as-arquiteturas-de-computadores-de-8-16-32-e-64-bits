@@ -1,0 +1,180 @@
+"Comparativo entre as arquiteturas de computadores de 8, 
+8, 16, 32 e 64 bits."
+
+1. Introdução
+
+A arquitetura de um computador define como 
+o processador trabalha com os dados e executa 
+as instruções. Uma das principais características 
+de um processador é a sua quantidade de bits. 
+Os computadores podem utilizar arquiteturas de 
+8, 16, 32 ou 64 bits. Quanto maior essa quantidade, 
+maior pode ser a capacidade de processamento de dados 
+em uma única operação.
+
+2. Arquitetura de 8 bits
+
+Os computadores de 8 bits conseguem trabalhar com grupos de 8 bits por vez em suas operações básicas.
+
+* Capacidade: trabalham com 256 combinações
+diferentes de valores sem sinal, de 0 a 255.
+* Memória: possuem limitações de processamento e 
+endereçamento, dependendo do projeto.
+* Desempenho: são mais simples e possuem 
+menor capacidade de processamento.
+* Utilização: foram comuns em computadores antigos, 
+videogames clássicos e sistemas eletrônicos simples.
+
+Exemplo: computadores antigos e consoles 
+clássicos de videogame.
+
+3. Arquitetura de 16 bits
+
+Os processadores de 16 bits trabalham com grupos de 16 bits 
+em suas operações básicas, permitindo manipular mais informações 
+por operação do que os de 8 bits.
+
+* Capacidade: representam 65.536 combinações diferentes de valores sem sinal, 
+de 0 a 65.535.
+* Memória: podem trabalhar com mais dados, dependendo da arquitetura e do sistema utilizado.
+* Desempenho: oferecem maior capacidade de processamento em comparação com os de 8 bits.
+* Utilização: foram utilizados em computadores pessoais antigos e videogames de gerações passadas.
+
+Exemplo: computadores com processadores Intel 80286.
+
+4. Arquitetura de 32 bits
+
+Os processadores de 32 bits conseguem manipular grupos de 32 bits 
+em suas operações básicas, oferecendo maior capacidade 
+de processamento e endereçamento.
+
+* Capacidade: representam aproximadamente 4,29 bilhões de combinações 
+diferentes de valores sem sinal.
+* Memória: sistemas com endereçamento de 32 bits podem 
+acessar teoricamente até 4 GB de endereços de memória, 
+embora o espaço disponível para a RAM possa ser menor.
+* Desempenho: permitem executar programas mais complexos 
+do que as arquiteturas anteriores, dependendo do processador.
+* Utilização: foram muito comuns em computadores pessoais 
+e sistemas operacionais.
+
+Exemplo: processadores Intel 80386 e computadores que utilizam 
+sistemas operacionais de 32 bits.
+
+5. Arquitetura de 64 bits
+
+Os processadores de 64 bits trabalham com operações de 64 bits e podem 
+utilizar espaços de endereçamento muito maiores, conforme a arquitetura 
+e o sistema operacional.
+
+* Capacidade: representam aproximadamente 18,4 quintilhões de combinações
+diferentes de valores sem sinal.
+* Memória: permitem utilizar muito mais de 4 GB de RAM, desde que o processador, 
+o sistema operacional e a placa-mãe ofereçam suporte.
+* Desempenho: possibilitam trabalhar com grandes quantidades de dados 
+e executar aplicações modernas com eficiência.
+* Utilização: são comuns nos computadores, notebooks e 
+celulares atuais.
+
+Exemplo: processadores modernos Intel Core e AMD RYZEN
+com suporte a 64 bits.
+
+6. Tabela comparativa
+
+Característica	8 bits, 16 bits, 32 bits e 64 bits
+Quantidade de bits	8	,16	,32	e 64.
+Combinações de valores sem sinal	256	65.536	
+Aproximadamente 4,29 bilhões;
+Aproximadamente 18,4 quintilhões;
+Capacidade de processamento	Baixa,em geral	
+Maior que 8 bits;
+Maior capacidade;
+Maior capacidade para operações de 64 bits;
+Endereçamento teórico de memória	Depende da 
+arquitetura, Até 4 GB com endereços de 32 bits	
+Pode ultrapassar 4 GB.
+Uso mais comum	Sistemas simples e:
+antigos	Computadores,
+antigos Computadores de gerações anteriores,	
+e Computadores modernos
+
+7. Conclusão
+
+Conclui-se que as arquiteturas de 8, 16, 32 e 64 
+bits apresentam diferenças na quantidade de dados 
+manipulados por operação e nas possibilidades de 
+endereçamento de memória. A evolução dessas arquiteturas 
+contribuiu para o desenvolvimento de computadores mais 
+capazes de executar programas complexos. Atualmente, 
+os processadores de 64 bits são amplamente utilizados por 
+oferecerem suporte a grandes espaços de memória e atenderem
+às necessidades dos programas modernos.
+
+"Por que não existem arquiteturas 
+de 128, 256 ou 512 bits como padrão?"
+
+1. Introdução
+
+Atualmente, a maioria dos computadores 
+utiliza processadores com arquitetura 
+de 64 bits. Embora existam processadores 
+capazes de executar operações de 
+128, 256 e até 512 bits, essas medidas 
+geralmente estão relacionadas a instruções 
+específicas de processamento, e não à 
+arquitetura geral do processador.
+
+2. Por que 64 bits é o padrão?
+
+A arquitetura de 64 bits oferece uma capacidade 
+de processamento e um espaço de endereçamento 
+de memória suficientes para a maioria 
+das aplicações atuais.
+
+Aumentar a quantidade de bits nem sempre significa
+aumentar o desempenho. Uma arquitetura mais 
+ampla pode exigir maior complexidade de hardware, 
+o consumo de energia e adaptações nos sistemas operacionais 
+e programas.
+
+3. Onde são utilizados 128, 256 e 512 bits?
+
+* 128 bits: utilizados em instruções vetoriais, 
+como SSE, que permitem processar vários valores 
+em uma única operação.
+* 256 bits: utilizados em instruções como AVX e AVX2, 
+úteis em cálculos científicos, processamento de imagens 
+e outras tarefas matemáticas.
+* 512 bits: utilizados em instruções como AVX-512, 
+presentes em determinados processadores, para acelerar 
+operações vetoriais específicas.
+
+Essas tecnologias permitem trabalhar com vários 
+dados simultaneamente,mas não significam que o processador 
+possua ter uma arquitetura geral de 128, 256 ou 512 bits.
+
+4. Por que não substituir 64 bits por 128 bits?
+
+Uma arquitetura geral de 128 bits poderia representar 
+um número muito maior de endereços de memória. Entretanto, 
+o espaço de endereçamento de 64 bits já é extremamente grande 
+para as necessidades atuais.
+
+Além disso, uma mudança desse tipo exigiria adaptações no hardware, 
+nos sistemas operacionais, nos compiladores e nos programas. Por isso, 
+a mudança só faria sentido se trouxesse vantagens práticas que justificassem 
+os custos e a complexidade.
+
+5. Conclusão
+
+As arquiteturas de 64 bits continuam predominantes porque 
+atendem às necessidades da maioria dos computadores modernos. 
+Embora existam operações de 128, 256 e 512 bits, 
+elas são utilizadas principalmente para acelerar tarefas específicas. 
+Portanto,aumentar a quantidade de bits não garante, por si só,um 
+computador mais rápido.
+
+Referências para estudo
+
+* Intel — informações sobre instruções vetoriais SSE, AVX e AVX-512.
+* AMD — documentação técnica sobre arquiteturas e instruções de processadores.

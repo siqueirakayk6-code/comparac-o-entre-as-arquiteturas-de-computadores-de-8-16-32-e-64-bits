@@ -174,7 +174,7 @@ elas são utilizadas principalmente para acelerar tarefas específicas.
 Portanto,aumentar a quantidade de bits não garante, por si só,um 
 computador mais rápido.
 
-Referências para estudo
+"Referências para estudo"
 
 * Intel — informações sobre instruções vetoriais SSE, AVX e AVX-512.
 * AMD — documentação técnica sobre arquiteturas e instruções de processadores.
